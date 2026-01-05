@@ -1,4 +1,4 @@
-# Bug Report: Float Sorting Does Not Work Correctly
+**# Bug Report: Float Sorting Does Not Work Correctly**
 
 ## Summary
 Sorting items by float value does not work as expected.  
