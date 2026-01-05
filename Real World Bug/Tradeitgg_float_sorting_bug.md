@@ -64,9 +64,8 @@ Low (P2)
 Users who rely on float value to evaluate item quality may:
 - Be unable to accurately compare items based on float value
 - Spend more time manually checking each item
-- Make incorrect purchase decisions
+- Potentially abandon purchase decisions
 - Experience degraded user experience and reduced trust in sorting functionality
-
 
 ---
 
