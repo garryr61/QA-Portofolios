@@ -2,17 +2,17 @@
 
 ## Summary
 Sorting items by float value does not work as expected.  
-When users apply "Float: Lowest to Highest", the items appear in random order instead of ascending float values.
+When users apply "Float: Lowest to Highest", "Highest to Lowest" the items appear in random order instead of ascending or descending float values in order.
 
 ---
 
 ## Environment
 - Website: https://tradeit.gg
 - Device: Desktop
-- OS: Windows 10
+- OS: Windows 11
 - Browser: Google Chrome
 - Browser Version: Latest
-- Date Found: [isi tanggal]
+- Date Found: 5 January 2026
 
 ---
 
@@ -27,14 +27,15 @@ When users apply "Float: Lowest to Highest", the items appear in random order in
 1. Open https://tradeit.gg
 2. Navigate to the item marketplace page
 3. Ensure all filters are disabled
-4. Select sorting option: **Float (Lowest to Highest)**
+4. Select sorting option: **Float (Lowest to Highest)** / **Float (Highest to Lowest)**
 5. Observe the order of float values displayed
 
 ---
 
 ## Expected Result
-Items should be sorted in ascending order based on float value, for example:
-0.03 → 0.12 → 0.45 → 0.78 → 0.90
+Items should be sorted in ascending or descending order based on float value, for example:
+0.03 → 0.12 → 0.45 → 0.78 → 0.90  **(Lowest to Highest)**
+0.90 → 0.78 → 0.45 → 0.12 → 0.03 **(Highest to Lowest)**
 
 ---
 
@@ -55,15 +56,17 @@ Medium
 ---
 
 ## Priority
-Medium
+Low (P2)
 
 ---
 
 ## Impact
 Users who rely on float value to evaluate item quality may:
+- Be unable to accurately compare items based on float value
+- Spend more time manually checking each item
 - Make incorrect purchase decisions
-- Lose trust in sorting functionality
-- Experience poor user experience when browsing items
+- Experience degraded user experience and reduced trust in sorting functionality
+
 
 ---
 
@@ -75,4 +78,4 @@ Users who rely on float value to evaluate item quality may:
 ---
 
 ## Evidence
-- Screenshot / video recording attached in `/Evidence` folder
+- Screenshot will be attached in `/Evidence` folder
